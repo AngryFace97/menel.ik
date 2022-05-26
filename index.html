@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/main.min.css">
+    <link rel="stylesheet" href="sass/main.css">
     <title>Menelik</title>
 </head>
-<body>
+
     <header class="header">
+        <div class="header__div">
         <button class="header__btn" type="button">Przejdź do menelika</button>
+    </div>
     </header>
-    
+<body>
+    <ul class="list">
+        <li class="list__btn" id="piwko">
+            <button type="button">Piwko</button>
+        </li>
+        <li class="list__btn">
+            <button type="button">Wóda</button>
+        </li>
+        <li class="list__btn">
+            <button type="button">Jagerek</button>
+        </li>
+        <li class="list__btn">
+            <button type="button">Tatarek</button>
+        </li>
+    </ul>
+    <div class="menelik">
+        <img class="menelik__img" src="./img/stickman.png" alt="">
+    </div>
+    <div class="drink-lvl">
+    <span>Poziom upojenia:</span>
+    <span id="drink-lvl"></span>
+</div>
 </body>
+<script src="./js/head.js" ></script>
 </html>

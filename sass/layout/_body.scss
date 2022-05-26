@@ -1,0 +1,23 @@
+.list {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+    &__btn {
+        margin-right: 10px;
+    }
+}
+
+.menelik {
+    text-align: center;
+
+    &__img {
+    padding-top: 30px;
+    padding-left: 650px;
+    }
+}
+
+.drink-lvl {
+    padding-top: 30px;
+    text-align: center;
+}

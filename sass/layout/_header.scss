@@ -1,9 +1,12 @@
 .header{
-    width: 100%;
 
+    
+    &__div{
+        margin-top: 100px;
+        text-align: center;
+    }
     &__btn{
-        justify-content: center;
-        color: blue;
+        color: rgb(8, 8, 24);
     }
 }
 
